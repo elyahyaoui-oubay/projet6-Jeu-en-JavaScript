@@ -6,8 +6,8 @@ var nombreDeviner;
 
 
  // entrer: saisir 
- btn = document.getElementById('btn');
- sortir = document.getElementById('sortirtext');
+btn = document.getElementById('btn');
+sortir = document.getElementById('sortirtext');
  nombre = Math.floor(Math.random() * 100);
 
  // traitement 

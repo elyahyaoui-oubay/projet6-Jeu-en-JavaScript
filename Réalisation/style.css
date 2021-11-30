@@ -28,13 +28,13 @@ h1{
 
 #entréeUtilisateur{
     width: 200px;
-  height: 30px;
-  border: solid 1px black;
-  border-radius: 3px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 3px;
 }
 
 #btn{
-    width: 70px;
+    width: 100px;
     height: 30px;
     border: solid 1px black;
     border-radius: 3px;

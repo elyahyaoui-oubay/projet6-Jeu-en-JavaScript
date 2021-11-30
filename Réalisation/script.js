@@ -9,7 +9,6 @@ var tentative;
 btn = document.getElementById('btn');
 sortir = document.getElementById('sortirtext');
 nombre = Math.floor(Math.random() * 100);
-console.log(nombre);
 tentativeSortir = document.getElementById('tentative');
 tentative = 10;
 
@@ -25,10 +24,10 @@ if(tentative>0){
     }else{
       if (nombreDeviner == nombre && tentative >=3){
         sortir.innerHTML = 'Félicitations, vous aves gangné après , ' +tentative +"tentative"
-    }
+      }
     }
 
- } else {
+  } else {
    if (nombreDeviner < nombre){
     sortir.innerHTML = "Il est plus petit que"
    }
