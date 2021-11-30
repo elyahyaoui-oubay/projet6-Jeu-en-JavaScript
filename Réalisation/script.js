@@ -30,10 +30,10 @@ if(tentative>0){
 
  } else {
    if (nombreDeviner < nombre){
-    sortir.innerHTML = "il est plus petit que"
+    sortir.innerHTML = "Il est plus petit que"
    }
     else {
-      sortir.innerHTML = "il est plus grand que"
+      sortir.innerHTML = "Il est plus grand que"
 
     }  
     }
