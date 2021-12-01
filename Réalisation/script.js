@@ -19,7 +19,7 @@ nombreDeviner = document.getElementById('entréeUtilisateur').value;
 if(tentative>0){
     tentativeSortir.innerHTML=tentative +"-tentative"
   if (nombreDeviner == nombre){
-    if ( nombreDeviner == nombre && tentative >=8){
+    if (nombreDeviner == nombre && tentative >=8){
       sortir.innerHTML = 'Bravo, vous etes un génie !!'
     }else{
       if (nombreDeviner == nombre && tentative >=3){
