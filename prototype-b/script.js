@@ -11,7 +11,7 @@ sortir = document.getElementById('sortirtext');
  nombre = Math.floor(Math.random() * 100);
 
  // traitement 
-btn.addEventListener('click', function(){
+ function entrer(){
   
   nombreDeviner = document.getElementById('entréeUtilisateur').value;
   if (nombreDeviner == nombre){
@@ -26,7 +26,7 @@ btn.addEventListener('click', function(){
 
   } 
 
-});
+};
 
 
 
